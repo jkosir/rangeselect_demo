@@ -1,0 +1,28 @@
+.week {
+    display: flex;
+    justify-content: space-around;
+}
+
+.day .card-block {
+    display: flex;
+}
+
+.day .card-block button {
+    flex-grow: 1;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.controls span {
+    padding: 1em;
+}
+
+.no-workout {
+    display: flex;
+    justify-content: center;
+}

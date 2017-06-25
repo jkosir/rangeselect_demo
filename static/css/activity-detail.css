@@ -1,0 +1,125 @@
+.activity-detail-content {
+    margin-bottom: 1em;
+}
+
+.activity-detail-workout {
+    margin-right: 10px;
+    margin-left: auto;
+    width: 80%;
+    margin-top: 1em;
+}
+
+.basic-info-container {
+    display: flex;
+}
+
+.user-image img {
+    border-radius: 50%;
+}
+
+.basic-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ride-info {
+    display: flex;
+    align-items: center;
+}
+
+.panel-body {
+    padding-bottom: 0 !important;
+}
+
+#activity-map {
+    height: 250px;
+    z-index: 0;
+}
+
+.charts {
+    border: 1px solid #ccc;
+}
+
+.area-axis path {
+    stroke: #AAA;
+}
+
+.area-axis text {
+    fill: #999;
+}
+
+.area-axis line {
+    stroke: #999;
+}
+
+.x-axis-common path {
+    display: none;
+}
+
+.x-axis-common text {
+    fill: #E0E1E1;
+}
+
+.x-axis-common line {
+    stroke: #E0E1E1;
+}
+
+.heartrate {
+    stroke: #af2219;
+}
+
+.velocity_smooth {
+    stroke: #628E8F;
+}
+
+.cadence {
+    stroke: #395287;
+}
+
+.watts {
+    stroke: #93177d;
+}
+
+.chart {
+    stroke-width: 1px;
+}
+
+.detected-interval {
+    fill: #9d3943;
+}
+
+.stacked-interval {
+    fill: #9d3943;
+}
+
+.map-polyline {
+    stroke: red;
+}
+
+.text-heartrate {
+    color: #f55753 !important;
+    text-decoration: underline dotted #f55753;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+}
+
+.text-duration {
+    color: #3C93CE !important;
+    text-decoration: underline dotted #3C93CE;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+}
+
+#stacked-charts {
+    background-color: #E0E1E1;
+}

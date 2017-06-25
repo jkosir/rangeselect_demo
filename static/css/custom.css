@@ -1,0 +1,368 @@
+.bg-black {
+    background-color: #333333;
+    color: white;
+}
+
+.bg-black > .panel-body > h3,
+.bg-black > .panel-body > p,
+.bg-black > .panel-heading > .panel-title {
+    color: white !important;
+}
+
+.queue-title {
+    color: white;
+}
+
+.queue-body {
+    margin-top: 20px;
+}
+
+.spectral {
+    background-color: white;
+    transition: background-color 0.3s;
+    color: #333333;
+}
+
+.spectral .panel {
+    height: 200px;
+}
+
+.spectral:hover {
+    background-color: rgba(51, 51, 51, 0.3);
+}
+
+.spectral:hover {
+    cursor: pointer;
+}
+
+.spectral .speed {
+    background-color: rgba(213, 62, 79, 0.3)
+}
+
+.spectral .anaerobic-endurance {
+    background-color: rgba(213, 62, 79, 0.3)
+}
+
+.spectral .power {
+    background-color: rgba(213, 62, 79, 0.3)
+}
+
+.spectral .force {
+    background-color: rgba(253, 174, 97, 0.3)
+}
+
+.spectral .muscular-endurance {
+    background-color: rgba(255, 255, 191, 0.3)
+}
+
+.spectral .endurance {
+    background-color: rgba(171, 221, 164, 0.3)
+}
+
+.spectral .recovery {
+    background-color: rgba(43, 131, 186, 0.3)
+}
+
+.spectral .panel-heading {
+    line-height: 2em;
+}
+
+.progress-workouts {
+    height: 24px;
+}
+
+.progress-workouts .progress-bar {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+.progress-bar-pending {
+    background-color: rgb(200, 200, 200);
+}
+
+.progress-bar-workouts {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-size: 40px 40px !important;
+}
+
+.panel-completed {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-size: 40px 40px !important;
+    /*-webkit-animation: progress-bar-stripes 2s linear infinite;*/
+    /*-o-animation: progress-bar-stripes 2s linear infinite;*/
+    /*animation: progress-bar-stripes 2s linear infinite;*/
+}
+
+.text-heartrate {
+    color: #f55753 !important;
+    text-decoration: underline #f55753;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+}
+
+.event-container {
+    height: 30px;
+    min-height: 30px !important;
+    background-color: #333333;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 6px;
+}
+
+.elessar-block-build {
+    color: white;
+    display: block;
+    height: 100%;
+    width: 20px;
+    background: #F55753;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 1231;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.elessar-handle {
+    display: block;
+    height: 100%;
+    width: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: ew-resize;
+    position: absolute;
+    top: 0;
+    z-index: 1232;
+    bottom: 0;
+}
+
+.elessar-handle:first-child {
+    left: 0;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+
+.elessar-handle:first-child::before {
+    font-family: FontAwesome;
+    content: "\f104";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    height: 100%;
+    color: white;
+    z-index: 100;
+    font-size: 24px;
+}
+
+.elessar-handle:last-child {
+    right: 0;
+    border-right: 1px solid #ccc;
+}
+
+.elessar-handle:last-child::before {
+    font-family: FontAwesome;
+    content: "\f105";
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    color: white;
+    z-index: 100;
+    font-size: 24px;
+}
+
+.elessar-vertical .elessar-handle {
+    height: 5px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: auto;
+    cursor: ns-resize;
+}
+
+.elessar-vertical .elessar-handle:first-child {
+    top: 0;
+}
+
+.elessar-vertical .elessar-handle:last-child {
+    bottom: 0;
+}
+
+.elessar-indicator {
+    position: absolute;
+    background: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 0 1px;
+    width: 2px;
+    height: 100%;
+    z-index: 15;
+}
+
+.elessar-vertical .elessar-indicator {
+    width: 100%;
+    height: 2px;
+}
+
+.elessar-range {
+    position: absolute;
+    cursor: pointer;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #10CFBD;
+    width: 0;
+    height: 100%;
+}
+
+.elessar-barlabel {
+    margin-left: 30px;
+}
+
+.elessar-range-remove {
+    display: block;
+    position: absolute;
+    right: 1px;
+    cursor: pointer !important;
+    line-height: 20px;
+    padding: 3px 10px;
+    top: -26px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 26px;
+    width: 30px;
+    background-color: #F55753;
+    color: white;
+    font-size: 14px;
+}
+
+.elessar-vertical .elessar-range {
+    width: auto;
+    height: 0;
+}
+
+.elessar-barlabel {
+    position: absolute;
+    color: white;
+    z-index: 100;
+}
+
+.elessar-readonly {
+    opacity: 0.6;
+    cursor: default !important;
+}
+
+.elessar-phantom {
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer !important;
+}
+
+.panel-body {
+    margin-top: 30px;
+}
+
+.elessar-rangebar {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    line-height: 50px;
+    background: #ccc;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.elessar-delete-confirm {
+    background: red;
+}
+
+body.elessar-resizing, body.elessar-dragging {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body.elessar-resizing,
+body.elessar-resizing .bar,
+body.elessar-resizing .handle {
+    cursor: ew-resize !important;
+}
+
+body.elessar-resizing.elessar-resizing-vertical,
+body.elessar-resizing.elessar-resizing-vertical .bar,
+body.elessar-resizing.elessar-resizing-vertical .handle {
+    cursor: ns-resize !important;
+}
+
+body.elessar-dragging,
+body.elessar-dragging .bar,
+body.elessar-dragging .handle {
+    cursor: move !important;
+    cursor: -webkit-grabbing !important;
+    cursor: -moz-grabbing !important;
+    cursor: grabbing !important;
+}
+
+header .pull-right {
+    margin: 10px 0 0 10px;
+    padding: 9.5px;
+}
+
+.irs-bar,
+.irs-slider,
+.irs-to,
+.irs-single,
+.irs-from,
+.irs-max {
+    display: none !important;
+}
+
+.irs-with-grid {
+    margin-left: 14px;
+    margin-right: 12px;
+    height: 20px !important;
+    top: -30px !important;
+}
+
+.irs:not(.irs-with-grid),
+.irs:not(.irs-with-grid) * {
+    height: 0 !important;
+
+}
+
+#hours-slider {
+    margin-bottom: 50px;
+}
+
+#hours-panel .irs-with-grid {
+    margin-left: 0;
+    top: -50px !important;
+}
+
+#hours-panel .noUi-horizontal {
+    margin-left: 7px;
+    margin-right: 19px;
+}
+
+.noUi-handle {
+    margin-left: 6px;
+}
+
+.panel-active {
+    margin-top: 5px;
+    margin-left: 5px;
+}

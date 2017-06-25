@@ -1,0 +1,181 @@
+/* Controls */
+.controls {
+    margin-bottom: 0.3em;
+    font-size: 2em;
+}
+
+.controls i:hover {
+    cursor: pointer;
+}
+
+.controls span {
+    margin: 0 1em;
+}
+
+/* Month */
+.month {
+    margin: 20px auto;
+}
+
+/* Week */
+.week {
+    display: flex;
+    height: 100px;
+}
+
+.week.day-names {
+    display: flex;
+    align-items: flex-start;
+    height: inherit;
+    border-top: 1px solid #ddd;
+}
+
+.week div.day:first-child {
+    margin-left: 0;
+}
+
+.week div.day:last-child {
+    margin-right: 0;
+}
+
+/* Day */
+.day {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: white;
+    padding: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.day-names .day {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.day-with-workout .day-title {
+    cursor: pointer;
+}
+
+.current-day {
+    background-color: #10cfbd;
+    border-radius: 1em;
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.day-title {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.day-number {
+    margin-left: auto;
+}
+
+.activity-container {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.activity {
+    cursor: pointer;
+    background-color: #333333;
+    color: white;
+    margin-top: auto;
+    border-radius: 3px;
+    width: 90%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.activity a i {
+    padding-right: 0.25em;
+}
+
+.activity:hover {
+    background-color: rgba(51, 51, 51, 0.9);
+}
+
+.activity a {
+    text-decoration: none;
+    color: white;
+}
+
+.activity a:hover {
+    color: white;
+}
+
+.activity a:visited {
+    color: white;
+}
+
+.workout-modal-title {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-stroke: 0px;
+    filter: alpha(opacity=40);
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.text-heartrate {
+    color: #f55753 !important;
+    text-decoration: underline dotted #f55753;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+}
+
+.text-duration {
+    color: #3C93CE !important;
+    text-decoration: underline dotted #3C93CE;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+}
+
+.day-completed {
+
+}
+
+#workout-grading-modal .modal-dialog {
+    overflow-y: initial !important;
+}
+
+#workout-grading-modal .modal-body {
+    height: 500px;
+    overflow-y: auto !important;
+}
+
+.workout-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.day {
+    overflow: hidden;
+}
+
+.day-number {
+    float: right;
+}

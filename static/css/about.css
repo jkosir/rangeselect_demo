@@ -1,0 +1,18 @@
+.picture {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.presspreview {
+    height: 150px;
+}
+
+.pressbtn {
+    width: 150px;
+    height: 150px;
+    background-color: transparent !important;
+    border-color: white !important;
+}

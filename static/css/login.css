@@ -1,0 +1,45 @@
+.btn-strava {
+    color: white;
+    background-color: #FC4C02;
+    border-color: #FC4C02;
+}
+
+.btn-strava:hover {
+    color: white;
+    background-color: #a53802;
+    border-color: #a53802;
+}
+
+.btn-strava:active {
+    color: white;
+}
+
+.landing-page-background {
+    display: flex;
+    background: url("../images/k3ulol3wubk-boris-stefanik.jpg");
+    background-size: cover;
+    height: calc(100vh - 60px);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-bottom: 10em;
+}
+
+.dropdown-menu > li > form {
+    line-height: 35px;
+    color: #626262;
+    padding: 0 20px;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.white-rect {
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

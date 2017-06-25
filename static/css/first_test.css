@@ -1,0 +1,41 @@
+#charts-example-overly {
+    background-color: #333;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(1);;
+    position: absolute;
+    z-index: 700;
+    overflow: hidden;
+}
+
+.charts {
+    position: relative
+}
+
+.charts.grayscale .heartrate {
+    stroke: #7e7e7e;
+}
+
+.charts.grayscale .velocity_smooth {
+    stroke: #8c8c8c;
+}
+
+.charts.grayscale .cadence {
+    stroke: #9e9e9e;
+}
+
+.charts.grayscale .watts {
+    stroke: #828282;
+}
+.charts.grayscale .detected-interval {
+    fill: grey;
+}
+.charts.grayscale .stacked-interval {
+    fill: grey;
+}
+.charts.grayscale .map-polyline {
+    stroke: grey;
+}

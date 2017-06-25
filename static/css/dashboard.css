@@ -1,0 +1,49 @@
+.progress-workouts {
+    height: 12px !important;
+}
+
+.progress-workouts .progress-bar {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+.progress-bar-pending {
+    background-color: rgb(200, 200, 200);
+}
+
+.progress-bar-workouts {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-size: 40px 40px !important;
+}
+
+.panel-completed {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-size: 40px 40px !important;
+    /*-webkit-animation: progress-bar-stripes 2s linear infinite;*/
+    /*-o-animation: progress-bar-stripes 2s linear infinite;*/
+    /*animation: progress-bar-stripes 2s linear infinite;*/
+}
+
+.text-heartrate {
+    color: #f55753 !important;
+    text-decoration: underline #f55753;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+}
+
+.text-duration {
+    color: #3C93CE !important;
+    text-decoration: underline dotted #3C93CE;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+}
+
+.help-text {
+    cursor: help;
+    text-decoration: underline dotted;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+
+}
